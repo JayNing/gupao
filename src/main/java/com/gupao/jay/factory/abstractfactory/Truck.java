@@ -1,4 +1,4 @@
-package com.gupao.jay.factory;
+package com.gupao.jay.factory.abstractfactory;
 
 /**
  * @Author JAY

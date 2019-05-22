@@ -1,10 +1,5 @@
 package com.gupao.jay.factory.simplefactory;
 
-import com.gupao.jay.factory.Bus;
-import com.gupao.jay.factory.Car;
-import com.gupao.jay.factory.Motor;
-import com.gupao.jay.factory.Truck;
-
 /**
  * @Author JAY
  * @Date 2019/5/22 22:11
