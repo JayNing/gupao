@@ -5,15 +5,13 @@ package com.gupao.jay.pattern.decorate;
  * @Date 2019/5/30 19:56
  * @Description TODO
  **/
-public abstract class PhoneDecorator implements IPhone {
+public class PhoneDecorator implements IPhone {
 
     IPhone iPhone;
 
     public PhoneDecorator(IPhone iPhone) {
         this.iPhone = iPhone;
     }
-
-    public abstract void doSomething();
 
     @Override
     public double getPrice() {

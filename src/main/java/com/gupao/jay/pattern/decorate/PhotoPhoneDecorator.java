@@ -11,10 +11,6 @@ public class PhotoPhoneDecorator extends PhoneDecorator {
         super(iPhone);
     }
 
-    @Override
-    public void doSomething() {
-
-    }
 
     @Override
     public double getPrice() {
@@ -24,7 +20,6 @@ public class PhotoPhoneDecorator extends PhoneDecorator {
     @Override
     public void function() {
 //        super.function();
-        doSomething();
         System.out.println("新增了拍照功能");
     }
 }

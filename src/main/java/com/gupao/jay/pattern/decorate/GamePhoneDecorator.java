@@ -12,11 +12,6 @@ public class GamePhoneDecorator extends PhoneDecorator {
     }
 
     @Override
-    public void doSomething() {
-
-    }
-
-    @Override
     public double getPrice() {
         return super.getPrice() + 100;
     }
@@ -24,7 +19,6 @@ public class GamePhoneDecorator extends PhoneDecorator {
     @Override
     public void function() {
 //        super.function();
-        doSomething();
         System.out.println("新增了游戏功能");
     }
 }
